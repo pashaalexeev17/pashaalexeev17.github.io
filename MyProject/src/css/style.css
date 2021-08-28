@@ -1,0 +1,403 @@
+body{
+    font-family: Arial, sans-serif;
+    zoom: 70%;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051; 
+}
+
+.logo{
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+
+.menu{
+    float: left;
+    padding-left: 432px;
+}
+
+.menu li{
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main{
+    width: 100%;
+    background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+    height: calc(100% - 62px);
+}
+
+.title__container{
+    float: left;
+    margin: 432px 0px 0px 404px;
+    color: #2c384a;
+    text-align: center;
+}
+
+.title__container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.title__container h4{
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+
+.title__container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 50px 14px 0px 14px;
+}
+
+.AboutMe{
+    height: 650px;   
+}
+
+.AboutMeTitle h2{
+    text-align: center;
+    margin-top: 109px;
+    color: #263244;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+hr{
+    background-color: #d17700;
+    height: 4px;
+    width: 70px;
+    margin: 34px auto 0px auto;    
+}
+
+.myPhotoMini{
+   margin-top: 60px;
+    
+}
+
+.DescAboutMe{
+    text-align: center;
+    color: #3f495a;
+    margin-top: 28px;
+}
+
+.AboutMe input{
+    background:url('../img/iconResum.png') no-repeat left 10px center;
+    padding-left: 31px;
+    padding-right: 16px;
+    border: 3px solid #6d7682;
+    border-radius: 5px;
+    line-height: 31px;
+    margin-top: 38px;
+    font-size: 15px;
+    color: #6f707e;
+}
+
+.mySkills{
+    height: 523px;
+    background: url(../img/bgSkills.png);
+    text-align: center;
+    font-weight: bold;
+}
+
+.mySkillsTitle{
+    text-align: center;
+    color: #263244;
+    font-size: 23px;
+    padding-top: 105px;
+}
+
+.mySkillsTitle h2{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.mySkillsList ul{
+    margin-top: 110px;
+    margin-left: 210px ;
+}
+
+.mySkillsList li{
+    float: left;
+    text-align: center;
+    font-size: 10px;
+    padding-left: 200px;
+    width: 350px;
+}
+
+.mySkillsList h4{
+    font-size: 15px;
+    margin: 39px 0px 20px 0px;
+    font-weight: bold;
+    color: #cf7600;
+}
+
+.mySkillsList p{
+    color: #3f495a;
+    text-align: center;
+}
+
+.Case{
+    height: 1050px;
+    background-color: #ffffff;
+}
+
+.Case h2{
+    text-align: center;
+    margin-top: 109px;
+    color: #263244;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.descCase{
+    margin-top: 40px;
+    text-align: center;
+    color: #3f495a;
+}
+
+.CasePhotos{
+    text-align: center;
+}
+
+.Price{
+    margin-top: 135px;
+    text-align: center;
+    margin-bottom: 107px;
+}
+
+.Price h2{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+select{
+    font-size: 16px;
+    line-height: 50px;
+    border: 2px solid #6d7682;
+    background: none;
+    color: #6d7682;
+    width: 890px;
+    margin-bottom: 42px;
+    height: 54px;
+}
+
+
+.Price h3{
+    margin-bottom: 25px;
+    text-justify: left;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: left;
+    padding-left: 575px;
+}
+
+.Price hr{
+    margin: 34px auto 0px auto;
+    background-color: #d1d1d1;
+    height: 3px;
+    width: 893px;
+}
+
+.Price p{
+    height: 10px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 575px;
+}
+
+.Stats{
+    height: 498px;
+    width: 100%;
+    background: url(../img/StatsBG.png);
+}
+
+.titleStats{
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+    padding-top: 102px;
+}
+
+.Stats h2{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+.Stats ul{
+    margin-top: 110px;
+    margin-left: 210px ;
+}
+
+.Stats li{
+    float: left;
+    text-align: center;
+    font-size: 10px;
+    padding-left: 200px;
+    width: 350px;
+}
+
+.Stats h3{
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 32px;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Rewiews{
+    height: 593px;
+    background: url(../img/bgRewiews.png);
+}
+
+.titleRewiews h2{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 45px;
+    margin-top: 103px;
+}
+
+.pictRewiews{
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 34px;
+}
+
+.descRewiews{
+    text-align: center;
+}
+
+.authorRewiews{
+    text-align: center;
+    margin-top: 39px;
+}
+
+.DiffrentRewiews ul{
+    margin-left: 972px;
+}
+
+.DiffrentRewiews li{
+    float: left;
+    text-align: center;
+    margin-left: 13px;
+    margin-top: 50px;
+}
+
+.myContacts{
+    height: 807px;
+    background: url(../img/bgCotacts.png) 100%;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.titleContacts{
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 45px;
+    padding-top: 105px;
+}
+
+.pictContacts li{
+    text-align: center;
+    width: 160px;
+    float: left;
+}
+
+.descContacts{
+    margin-bottom: 54px;
+}
+
+.pictContacts ul{
+    margin-left: 778px;
+}
+
+.titleForm{
+    text-align: center;
+}
+
+.titleForm h3{
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+.BlockNonLeft{
+    margin-right: 750px;
+}
+
+.titleForm{
+    margin-top: 65px;
+}
+
+.rewiewForm input{
+    height: 30px;
+    margin-right: 29px;
+    width: 348px;
+}
+
+.rewiewForm textarea{
+    width: 348px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.titleFormSubmit input{
+    height: 42px;
+    width: 124px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    background: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 15px; 
+}
+    
+.Map{
+    width: 100%;
+    background: url(../img/MapBG.png);
+    height: 330px;
+}
+
+.end{
+    text-align: center;
+    background-color: #354051;
+    height: 95px;
+    margin-bottom: 42px;
+}
+
+.end p{
+    padding-top: 42px;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
