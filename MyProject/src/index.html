@@ -5,13 +5,20 @@
     <title>Андрей Браун - Веб-разаработчик</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <div class="logo">Андрей Браун</div>
-            <div class="menu">
+           <div class="container">
+               <div class="row">
+                   <div class="col-xxl-2 col-xl-3 col-lg-3 col-7">
+                       <div class="logo">Андрей Браун
+                        </div>
+                    </div>
+                   <div class="px-0 col-xxl-6 offset-xxl-4 col-xl-7 offset-xl-2 col-lg-8 offset-lg-1 d-none d-lg-block">
+                   <div class="menu">
                 <ul>
                 <li><a href="#">Обо мне</a></li>
                 <li><a href="#">Услуги</a></li>
@@ -20,18 +27,40 @@
                 <li><a href="#">Отзывы</a></li>
                 <li><a href="#">Контакты</a></li>
                 </ul>
-            </div>   
+                    </div>   
+                  </div>
+                  <div class="col-5 d-flex d-lg-none flex-column justify-content-center align-items-end">
+                      <div class="dropdown">
+                          <a class="btn btn btn-outline-secondary dropdown-toggle white-btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            Навигация
+                          </a>
+
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Обо мне</a></li>
+                            <li><a class="dropdown-item" href="#">Услуги</a></li>
+                            <li><a class="dropdown-item" href="#">Кейсы</a></li>
+                            <li><a class="dropdown-item" href="#">Прайс</a></li>
+                            <li><a class="dropdown-item" href="#">Отзывы</a></li>
+                            <li><a class="dropdown-item" href="#">Контакты</a></li>
+                            
+                          </ul>
+                        </div>
+                  </div>
+               </div>
+           </div>
+            
+            
         </nav>
     </header>
     
     
     <div class="main">
-        <div class="title__container">
+       <div class="container h-100"><div class="row align-items-center h-100"><div class="col-lg-6 mt-5 pt-5"><div class="title__container mt-5">
             <h1>Привет <br> Я Андрей Браун</h1>
             <h4>Фулл стек-разработчик и </h4>
             <input type="submit" value="Обо мне">
             <input type="submit" value="Мои работы">
-        </div>
+        </div></div></div></div>
     </div>
     
     
@@ -61,15 +90,47 @@
         <div class="mySkillsTitle">
         <h2>ЧТО Я УМЕЮ</h2>
         </div>
-        <hr>
+<!--        <hr>-->
+               
+        
         <div class="mySkillsList">
-        <ul>
-            <li><img src="../src/img/LogoPC.png" alt="Компьютер"><h4>Веб-дизайн</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore magni, veritatis dicta fugiat dolores quas illo commodi totam architecto modi.</p></li>
-            <li><img src="../src/img/LogoTeg.png" alt="Разработка"><h4>Разработка</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore magni, veritatis dicta fugiat dolores quas illo commodi totam architecto modi.</p></li>
-            <li><img src="../src/img/LogoRacket.png" alt="Ракета"><h4>CED-оптимизация</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore magni, veritatis dicta fugiat dolores quas illo commodi totam architecto modi.</p></li>
-            <li><img src="../src/img/LogoGramafon.png" alt="Громкоговоритель"><h4>Маркетинг</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore magni, veritatis dicta fugiat dolores quas illo commodi totam architecto modi.</p></li>
-        </ul>
+            <div class="container">
+                <div class="row">
+          
+                   <div class="col-lg-3 col-md-6">
+                   <img src="../src/img/LogoPC.png" alt="Компьютер"><h4>Веб-дизайн</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore magni, veritatis dicta fugiat dolores quas illo commodi totam architecto modi.</p>
+                   </div>
+                   
+                   <div class="col-lg-3 col-md-6">
+                   <img src="../src/img/LogoTeg.png" alt="Разработка"><h4>Разработка</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore magni, veritatis dicta fugiat dolores quas illo commodi totam architecto modi.</p>
+                    </div>
+                   
+                   <div class="col-lg-3 col-md-6">
+
+                   <img src="../src/img/LogoRacket.png" alt="Ракета"><h4>CED-оптимизация</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore magni, veritatis dicta fugiat dolores quas illo commodi totam architecto modi.</p>
+                    </div>
+
+                   
+                   
+                   <div class="col-lg-3 col-md-6">
+                   <img src="../src/img/LogoGramafon.png" alt="Громкоговоритель"><h4>Маркетинг</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore magni, veritatis dicta fugiat dolores quas illo commodi totam architecto modi.</p>
+                    </div>
+
+           
+                
+            </div>
         </div>
+    </div>         
+<!--
+            <div class="mySkillsList">
+            <ul>
+                <li><img src="../src/img/LogoPC.png" alt="Компьютер"><h4>Веб-дизайн</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore magni, veritatis dicta fugiat dolores quas illo commodi totam architecto modi.</p>    </li>
+                <li><img src="../src/img/LogoTeg.png" alt="Разработка"><h4>Разработка</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore magni, veritatis dicta fugiat dolores quas illo commodi totam architecto modi.</p>    </li>
+                <li><img src="../src/img/LogoRacket.png" alt="Ракета"><h4>CED-оптимизация</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore magni, veritatis dicta fugiat dolores quas illo commodi totam architecto modi.</p>    </li>
+                <li><img src="../src/img/LogoGramafon.png" alt="Громкоговоритель"><h4>Маркетинг</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore magni, veritatis dicta fugiat dolores quas illo commodi totam architecto modi.</p></li>
+            </ul>
+            </div>
+-->
     </div>
     
     
@@ -83,7 +144,7 @@
         </div>
         <br>
         <div class="CasePhotos">
-            <img src="../src/img/SlideCase.png" alt="Тут дожен быть слайд из фоток, но как его делать я пок ане понимаю.">
+           <div class="container"><div class="row"><div class="col-xxl-12 col-xl-12 col-lg-12 col-12"><img src="../src/img/SlideCase.png" alt="Тут дожен быть слайд из фоток, но как его делать я пок ане понимаю."></div></div></div>
         </div>
 <!--
         <div class="Caseprojects">
@@ -103,69 +164,93 @@
 -->
     </div>
     
+
     <div class="Price">
-        <div class="titlePrice">
+        
         <h2>Расчет стоимости</h2>
+        
+
+     <div class="continer">
+     <div class="row">
+     <div class="offset-2 col-8 offset-2">
+     <form>
+        <div class="mb-3">
+            <label for="disabledSelect" class="form-label"><h3>ТИП САЙТА</h3></label>
+            <select id="disabledSelect" class="form-select">
+                <option selected>Выберите пункт...</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
         </div>
-        
-        
-        <h3>Тип сайта</h3>
-        <select name="list1" id="list1">
-            <option value="Opt1">Я пытался поставить </option>
-            <option value="Opt2">Placrholder</option>
-            <option value="Opt3">Но он почему-то</option>
-            <option value="Opt4">Не работает</option>
-        </select>
-       
-        
-        
-        <h3>Дизайн</h3>
-        <select name="list2" id="list2">
-            <option value="Opt1">Я пытался поставить </option>
-            <option value="Opt2">Placrholder</option>
-            <option value="Opt3">Но он почему-то</option>
-            <option value="Opt4">Не работает</option>
-        </select>
-        
-        
-        
-        <h3>Адаптивность</h3>
-        <select name="list3" id="list3">
-            <option value="Opt1">Я пытался поставить </option>
-            <option value="Opt2">Placrholder</option>
-            <option value="Opt3">Но он почему-то</option>
-            <option value="Opt4">Не работает</option>
-        </select>
-        
-        <hr>
+           <div class="mb-3">
+            <label for="disabledSelect" class="form-label"><h3>ДИЗАЙН</h3></label>
+            <select id="disabledSelect" class="form-select">
+                <option selected>Выберите пункт...</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div><div class="mb-3">
+            <label for="disabledSelect" class="form-label"><h3>АДАПТИВНОСТЬ</h3></label>
+            <select id="disabledSelect" class="form-select">
+                <option selected>Выберите пункт...</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
         <br><br>
         <p>Cроки:</p>
         <br><br>
         <p>Стоимость:</p>
         <br><br>
-    </div>
+    </form>
+    </div></div></div>
+    <div class="container-fluid"><div class="row"><div class="offset-5 col-2 offset-5"><input type="submit" value="Оставить заявку">
+    </div></div></div>
+    </div>    
+        
+<!--        <hr>-->
+        
     
     
     <div class="Stats">
         <div class="titleStats">
         <h2>НЕМНОГО СТАТИСТИКИ</h2>
         </div>
-        <hr>
-        <div class="listStats">
-           <ul>
-               <li><img src="../src/img/StatsSmile.png" alt=":)"><br><h3>120</h3><br>СЧАСТЛИВЫХ КЛИЕНТОВ</li>
-               <li><img src="../src/img/StatsTeg.png" alt="Тег"><br><h3>4,600</h3><br>ЧАСОВ РАБОТЫ</li>
-               <li><img src="../src/img/StatsGalochka.png" alt="Галочкка"><br><h3>340</h3><br>ПРОЕКТОВ ЗАВЕРШЕНО</li>
-               <li><img src="../src/img/StatsKybok.png" alt="Кубок"><br><h3>23</h3><br>НАГРАД ПОЛУЧЕНО</li>
-            </ul>
-        </div>   
+<!--        <hr>-->
+       <div class="listStats">
+            <div class="container">
+                <div class="row">
+          
+                   <div class=" col-lg-3 col-md-6">
+                   <img src="../src/img/StatsSmile.png" alt=":)"><br><h3>120</h3><br>СЧАСТЛИВЫХ КЛИЕНТОВ
+                   </div>
+                   
+                   <div class=" col-lg-3 col-md-6">
+                   <img src="../src/img/StatsTeg.png" alt="Тег"><br><h3>4,600</h3><br>ЧАСОВ РАБОТЫ
+                   </div>
+                   
+                   <div class=" col-lg-3 col-md-6">
+                   <img src="../src/img/StatsGalochka.png" alt="Галочкка"><br><h3>340</h3><br>ПРОЕКТОВ ЗАВЕРШЕНО
+                   </div>
+
+                   <div class=" col-lg-3 col-md-6">
+                   <img src="../src/img/StatsKybok.png" alt="Кубок"><br><h3>23</h3><br>НАГРАД ПОЛУЧЕНО
+                   </div>
+
+           
+                
+            </div>
+        </div>
+    </div>         
     </div>
-    
     
     <div class="Rewiews">
         <div class="titleRewiews">
             <h2>ОТЗЫВЫ</h2>
-            <hr>
+<!--            <hr>-->
         </div>
         <div class="pictRewiews">
             <img src="./img/UserPhoto.png" alt="Фото пользователя">
@@ -177,6 +262,7 @@
         <div class="authorRewiews">
             <strong>Михаил,</strong> Ген.директор ПАО "Газпром".
         </div>
+<!--
         <div class="DiffrentRewiews">
             <ul>
                 <li><img src="../src/img/Rewiews%201.png" alt="Отзыв 1"></li>
@@ -184,7 +270,8 @@
                 <li><img src="../src/img/Rewiews%202-3.png" alt="Отзыв 3"></li>
             </ul>
         </div>
-    </div>
+-->
+</div>
     
     
     <div class="myContacts">
@@ -196,30 +283,39 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis sequi accusantium molestiae animi magni ullam asperiores deserunt deleniti tempora reprehenderit distinctio officiis, commodi consequatur doloribus fuga, tenetur pariatur, ratione illum.
         </div>
         <div class="pictContacts">
-            <ul>
-                <li><img src="../src/img/Geo.png" alt="Геоточка"><br><br>Санкт-Петербург</li>
-                <li><img src="../src/img/Mail.png" alt="Письмо"><br><br>pochta@mail.ru</li>
-            </ul>
-            <div class="BlockNonLeft">
-                <img src="../src/img/Phone.png" alt="Телефон"><br><br>+7 (999) 999-99-99
+           <div class="container">
+               <div class="row">
+                   <div class="offset-3 col-2  offset-md-2 col-md-3">
+                       <img src="../src/img/Geo.png" alt="Геоточка"><br><br>Санкт-Петербург
+                    </div>
+                    <div class="col-2"><img src="../src/img/Mail.png" alt="Письмо"><br><br>pochta@mail.ru
+                    </div>
+                     <div class="col-2 col-md-3">
+                       <img src="../src/img/Phone.png" alt="Телефон"><br><br>+7 (999) 999-99-99
+                    </div>
+            </div></div>
             </div>
-        </div>
-        <br>
-        <div class="rewiewsSMS">
+             <div class="rewiewsSMS">
             <div class="titleForm">
                 <h3>ОСТАВТЕ МНЕ СООБЩЕНИЕ</h3>
             </div>
             <div class="rewiewForm">
-                <input type="text" placeholder="Имя">
-                <input type="text" placeholder="Email"><br>
-                <textarea name="name1" id="1" cols="100" rows="5" placeholder="Отзыв"></textarea>
+               <div class="container"><div class="row">
+                   <div class="offset-2 col-4">
+                    <input type="text" placeholder="Имя">
+                   </div>
+                   <div class="col-4">
+                    <input type="text" placeholder="Email">
+                   </div>
                 <br>
+                <div class="offset-2 col-8"><textarea name="name1" id="1" cols="200" rows="5" placeholder="Отзыв"></textarea></div>
+                </div></div>
             </div>
             <div class="titleFormSubmit">
                 <input type="submit" value="Отправить">
             </div>
-            
-            <br>
+        </div>
+        <br>
 <!--
             <div class="pictOfSocial">
                 <ul>
@@ -232,9 +328,6 @@
             </div>
 -->
         </div>
-    </div>
-     
-           
     <div class="Map">
     </div>
        <br> 
@@ -242,9 +335,9 @@
         <div class="end">
             <p>Coperight@2021 Андрей Брин. Disegned by Web</p>
         </div>
-    </footer>
+    </footer> 
         
-   
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 <!--
 <div class="preloader">

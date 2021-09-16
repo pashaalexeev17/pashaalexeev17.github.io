@@ -1,6 +1,6 @@
+
 body{
     font-family: Arial, sans-serif;
-    zoom: 70%;
 }
 
 nav{
@@ -8,13 +8,13 @@ nav{
     height: 60px;
     background: #344051;
     position: fixed;
+    z-index: 10;
 }
 
 .logo{
     color: #fff;
     font-size: 28px;
     line-height: 60px;
-    padding-left: 388px;
     float: left;
     -webkit-animation: comming 3.5s;
     -o-animation: comming 3.5s;
@@ -23,7 +23,6 @@ nav{
 
 .menu{
     float: left;
-    padding-left: 432px;
 }
 
 .menu li{
@@ -31,7 +30,7 @@ nav{
     line-height: 60px;
     color: #fff;
     margin-right: 40px;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     transition: all 0.1s;
     transform: scale(1);
@@ -44,6 +43,7 @@ nav{
 .menu li a{
     transition: all 0.5s;
     display: inline-block;
+    text-decoration: none;
 }
 
 .menu li a:visited{
@@ -66,17 +66,20 @@ nav{
 
 .title__container{
     float: left;
-    margin: 432px 0px 0px 404px;
     color: #2c384a;
     text-align: center;
+/*
     -webkit-animation: titlemove 1.2s ease-out;
     -o-animation: titlemove 1s;
     animation: titlemove 1s;
+*/
+    width: 100%;
 }
 
 .title__container h1{
-    font-size: 60px;
+    font-size: 72px;
     font-weight: bold;
+    font-family: Arial, sans-serif;
 }
 .title__container h4{
     margin-top: 40px;
@@ -93,7 +96,6 @@ nav{
     color: #6d7682;
     font-size: 13px;
     padding: 0px 16px;
-    margin: 50px 14px 0px 14px;
     transition: all 0.2s;
 }
 
@@ -123,9 +125,11 @@ hr{
     height: 4px;
     width: 70px;
     margin: 34px auto 0px auto;
+/*
     -webkit-animation: comming 3.5s;
     -o-animation: comming 3.5s;
     animation: comming 3.5s;
+*/
 }
 
 .myPhotoMini{
@@ -168,8 +172,10 @@ hr{
     background: url(../img/bgSkills.png);
     text-align: center;
     font-weight: bold;
-    background-attachment: fixed;
+    width: 100%;
 }
+
+
 
 .mySkillsTitle{
     text-align: center;
@@ -181,36 +187,24 @@ hr{
 .mySkillsTitle h2{
     font-weight: bold;
     font-size: 23px;
+    margin-bottom: 110px;
 }
 
-.mySkillsList ul{
-    margin-top: 110px;
-    margin-left: 210px ;
-}
-
-.mySkillsList li{
-    float: left;
-    text-align: center;
-    font-size: 10px;
-    padding-left: 200px;
-    width: 350px;
-}
 
 .mySkillsList h4{
+    margin-top: 20px;
     font-size: 15px;
-    margin: 39px 0px 20px 0px;
     font-weight: bold;
     color: #cf7600;
 }
 
 .mySkillsList p{
-    color: #3f495a;
-    text-align: center;
+    color: #3f495a; 
 }
 
 .Case{
-    height: 1050px;
     background-color: #ffffff;
+    margin-bottom: 100px;
 }
 
 .Case h2{
@@ -227,13 +221,13 @@ hr{
     color: #3f495a;
 }
 
-.CasePhotos{
+.CasePhotos img{
     text-align: center;
+    width: 100%;
 }
 
 .Price{
-    margin-top: 135px;
-    text-align: center;
+    margin-top: 0px;
     margin-bottom: 107px;
 }
 
@@ -244,25 +238,29 @@ hr{
     margin-bottom: 45px;
 }
 
-select{
-    font-size: 16px;
-    line-height: 50px;
-    border: 2px solid #6d7682;
-    background: none;
-    color: #6d7682;
-    width: 890px;
+.Price select{
     margin-bottom: 42px;
-    height: 54px;
+    height: 57px;
+    background-color: #eeeeee;
+}
+
+.Price input{
+    width: 195px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #00b6af;
+    border-radius: 5px;
+    color: #ffff;
+    font-size: 13px;
+    background-color: #00b6af;
 }
 
 
+
 .Price h3{
-    margin-bottom: 25px;
-    text-justify: left;
     font-weight: bold;
     font-size: 23px;
     text-align: left;
-    padding-left: 575px;
 }
 
 .Price hr{
@@ -276,14 +274,12 @@ select{
     height: 10px;
     font-weight: bold;
     text-align: left;
-    padding-left: 575px;
 }
 
 .Stats{
     height: 498px;
     width: 100%;
     background: url(../img/StatsBG.png);
-    background-attachment: fixed;
 }
 
 .titleStats{
@@ -294,31 +290,28 @@ select{
 }
 
 .Stats h2{
+    padding-top: 100px;
     text-align: center;
     font-size: 23px;
     font-weight: bold;
-    margin-bottom: 45px;
+    margin-bottom: 32px;
 }
 
-.Stats ul{
-    margin-top: 110px;
-    margin-left: 210px ;
+.listStats{
+    text-align:center;
 }
 
-.Stats li{
-    float: left;
-    text-align: center;
-    font-size: 10px;
-    padding-left: 200px;
-    width: 350px;
+.listStats img{
+    margin-bottom: 32px;
 }
+
+
+
 
 .Stats h3{
-    margin-top: 40px;
     font-weight: bold;
-    font-size: 26px;
-    margin-bottom: 32px;
-    font-size: 13px;
+    margin-bottom: 15px;
+    font-size: 40px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -368,14 +361,14 @@ select{
     width: 100%;
     text-align: center;
     color: #ffffff;
-    background-attachment: fixed;
+/*    background-attachment: fixed;*/
 }
 
 .titleContacts{
     font-size: 23px;
     font-weight: bold;
     margin-bottom: 45px;
-    padding-top: 105px;
+    padding-top: 50px;
 }
 
 .pictContacts li{
@@ -388,9 +381,6 @@ select{
     margin-bottom: 54px;
 }
 
-.pictContacts ul{
-    margin-left: 778px;
-}
 
 .titleForm{
     text-align: center;
@@ -468,6 +458,7 @@ select{
     }
 }
 
+
 @keyframes topshift{
     from{
         opacity: 0;
@@ -520,21 +511,21 @@ select{
 }
 
 
-.preloader {
-  /*фиксированное позиционирование*/
+/*.preloader {
+  
   position: fixed;
-  /* координаты положения */
+
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
-  /* фоновый цвет элемента */
+  
   background: #e0e0e0;
-  /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
+  
   z-index: 1001;
 }
 
-/*
+
 .preloader__row {
   position: relative;
   top: 50%;
@@ -590,4 +581,73 @@ select{
 .loaded .preloader {
   display: none;
 }
-*/
+*/ загрузчик
+
+
+.white-btn:visited{
+    color: white;
+}
+
+@media (max-width: 991px){
+    .title__container, .title__container h4, .title__container input{
+        color: white;
+        position: relative;
+        z-index: 3;
+    }
+    
+    .title__container input{
+        border: 2px solid #fff;
+    }
+    
+    .main{
+        position: relative;
+    }
+    
+    .main:after{
+        content: "";
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        background: rgba(0,0,0,0.4);
+    }
+    
+    .mySkills{
+        background: url(../img/bgSkills.png) no-repeat 100% center;
+        width: 100%;
+    }
+    
+    
+    
+    .mySkillsTitle{
+       padding-top: 20px;
+    }
+    
+    .mySkillsTitle h2{
+        margin-bottom: 70px;
+    }
+    
+    .titleStats{
+        margin-bottom: 20px;
+    }
+    
+    .Stats h2{
+        padding-top: 50px;
+        text-align: center;
+        font-size: 23px;
+        font-weight: bold;
+        margin-bottom: 32px;
+    }
+    
+    .Stats img{
+        margin-top: 20px;
+        margin-bottom: 8px;
+    }
+    
+    .Stats h3{
+        margin-bottom: 0px;
+    } 
+}
+
+
